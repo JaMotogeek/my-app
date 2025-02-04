@@ -1,6 +1,6 @@
 "use client"
 
-
+import styles from '../index.module.css';
 
 
 
@@ -9,23 +9,23 @@ const Message = () => {
     		<div className={styles.message}>
       			<div className={styles.groupParent}>
         				<div className={styles.rectangleParent}>
-          					<Image className={styles.groupChild} width={40} height={40} alt="" src="Rectangle 1092.png" />
+          					<Image className={styles.groupChild} width={40} height={40} alt="rectangle" src="Rectangle 1092.png" />
           					<div className={styles.jhonAbrahamParent}>
             						<div className={styles.jhonAbraham}>Jhon Abraham</div>
             						<div className={styles.am}>09:25 AM</div>
             						<div className={styles.vectorParent}>
-              							<Image className={styles.groupItem} width={180} height={36} alt="" src="Rectangle 1131.svg" />
+              							<Image className={styles.groupItem} width={180} height={36} alt="rectangle" src="Rectangle 1131.svg" />
               							<div className={styles.helloNazrul}>Hello ! Nazrul How are you?</div>
                 								</div>
                 								</div>
                 								</div>
                 								<div className={styles.rectangleGroup}>
-                  									<Image className={styles.groupChild} width={40} height={40} alt="" src="Rectangle 1092.png" />
+                  									<Image className={styles.groupChild} width={40} height={40} alt="rectangle" src="Rectangle 1092.png" />
                   									<div className={styles.jhonAbrahamGroup}>
                     										<div className={styles.jhonAbraham}>Jhon Abraham</div>
                     										<div className={styles.am1}>09:25 AM</div>
                     										<div className={styles.vectorGroup}>
-                      											<Image className={styles.rectangleIcon} width={184} height={36} alt="" src="Rectangle 1131.svg" />
+                      											<Image className={styles.rectangleIcon} width={184} height={36} alt="rectangle" src="Rectangle 1131.svg" />
                       											<Image className={styles.groupChild1} width={112} height={36} alt="" src="Rectangle 1132.svg" />
                       											<div className={styles.helloNazrul}>Have a great working week!!</div>
                       											<div className={styles.hopeYouLike}>Hope you like it</div>
