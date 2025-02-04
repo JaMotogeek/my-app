@@ -1,0 +1,67 @@
+John Doe
+Email: john.doe@example.com | Phone: (123) 456-7890 | LinkedIn: linkedin.com/in/johndoe | GitHub: github.com/johndoe
+
+Professional Summary
+Highly motivated Full Stack Developer with 5+ years of experience designing, developing, and maintaining web applications. Proficient in both front-end and back-end technologies, with a strong focus on creating scalable, user-friendly, and efficient solutions. Adept at collaborating with cross-functional teams to deliver high-quality software on time.
+
+Technical Skills
+Front-End: HTML, CSS, JavaScript, React, Angular, Vue.js
+
+Back-End: Node.js, Express, Python (Django, Flask), Ruby on Rails
+
+Databases: MySQL, PostgreSQL, MongoDB
+
+DevOps: Docker, Kubernetes, AWS, CI/CD pipelines
+
+Tools: Git, Jira, VS Code, Postman
+
+Other: RESTful APIs, GraphQL, Agile/Scrum methodologies
+
+Professional Experience
+Full Stack Developer
+Tech Solutions Inc., San Francisco, CA
+June 2019 – Present
+
+Developed and maintained scalable web applications using React for the front-end and Node.js for the back-end.
+
+Designed and implemented RESTful APIs to integrate with third-party services, improving system functionality by 30%.
+
+Collaborated with UX/UI designers to create responsive and intuitive user interfaces.
+
+Optimized database queries, reducing page load times by 25%.
+
+Deployed applications on AWS using Docker and Kubernetes, ensuring high availability and scalability.
+
+Conducted code reviews and mentored junior developers, improving team productivity by 20%.
+
+Junior Full Stack Developer
+Innovate Tech, Austin, TX
+January 2017 – May 2019
+
+Assisted in the development of full-stack applications using Angular and Django.
+
+Built and maintained database schemas, ensuring data integrity and performance.
+
+Implemented automated testing frameworks, reducing bugs in production by 15%.
+
+Worked closely with product managers to translate business requirements into technical solutions.
+
+Education
+Bachelor of Science in Computer Science
+University of Texas at Austin, TX
+Graduated: May 2016
+
+Certifications
+AWS Certified Developer – Associate
+
+Scrum Master Certified (SMC)
+
+Microsoft Certified: Azure Fundamentals
+
+Projects
+E-Commerce Platform: Built a full-stack e-commerce application using React, Node.js, and MongoDB. Integrated payment gateways and deployed on AWS.
+
+Task Management Tool: Developed a task management app with Angular and Django, featuring real-time updates and user authentication.
+
+Portfolio Website: Created a personal portfolio website using Vue.js and hosted it on Netlify.
+
