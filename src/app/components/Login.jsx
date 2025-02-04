@@ -6,35 +6,34 @@ const SignIn = () => {
   return (
     <div className="w-full h-screen relative bg-white overflow-hidden text-left text-sm text-teal font-circular-std">
       {/* Back button */}
-      <Image
+{      <Image
         className="absolute top-[61px] left-[24px] w-6 h-6 overflow-hidden object-contain"
         width={24}
         height={24}
         alt="Back"
-        // src="Back.png"
+        src="back-button-svgrepo-com.svg"
       />
-
+}
       {/* Login button */}
       <div className="w-full h-screen relative bg-white overflow-hidden text-center text-teal font-circular-std">
-      {/* <Image
+      { <Image
           className="absolute top-[0px] left-[0px] rounded-2xl w-[327px] h-12"
-          width={327}
-          height={48}
+          width={512}
+          height={512}
           alt="Login Button Background"
-          // src="Rectangle 1159.svg"
-        /> */}
+          src="a-cute-computer.svg"
+        /> }
         <b className=" top-[16px] text-right leading-[16px] w-full">Log in</b>
       </div>
 
       {/* Page title */}
       <div className="w-full h-screen relative bg-white overflow-hidden text-left text-sm text-teal font-circular-std">
-      <Image
+      {/* <Image
           className="absolute top-[13px] left-[0px] w-14 h-2"
           width={56}
           height={8}
           alt="Underline"
-          // src="Line 42 (Stroke).svg"
-        />
+        /> */}
         <div className="absolute top-[0px] left-[24px] text-bold leading-[18px]">
         <h1 className="absolute top-[0px] left-[1px] text-bold leading-[18px]">
           Log in to Chatbox
@@ -61,8 +60,8 @@ Welcome to Lightning Jobs, we will match you up at the speed of Lightning      <
         >
           Password
         </a>
-        <div className="absolute top-[57.5px] left-[-0.5px] border-lightgray border-t border-solid box-border w-full h-px" />
-        <div className="absolute top-[30px] left-[0px] text-base tracking-[2px] leading-[16px] font-caros text-gray-200">
+        <div className="absolute top-[57.5px] left-[-0.5px] border-lightblack border-t border-solid box-border w-full h-px" />
+        <div className="absolute top-[30px] left-[0px] text-base tracking-[2px] leading-[16px] font-caros text-black-200">
           **********
         </div>
       </div>
@@ -72,19 +71,17 @@ Welcome to Lightning Jobs, we will match you up at the speed of Lightning      <
         <div className="absolute top-[0px] text-left w-full tracking-[0.1px] leading-[14px] font-medium">
           Your email
         </div>
-        <div className="absolute top-[57.5px] left-[-0.5px] border-lightgray border-t border-solid box-border w-full h-px" />
-        <div className="absolute top-[30px]  text-left leading-[16px] font-caros text-gray-200 text-left w-full">
+        <div className="absolute top-[57.5px] left-[-0.5px] border-lightblack border-t border-solid box-border w-full h-px" />
+        <div className="absolute top-[30px]  text-left leading-[16px] font-caros text-black-200 text-left w-full">
           nazrulmum@uihut.com
         </div>
       </div>
 
-      <Image
+      {/* <Image
         className="absolute top-[502px] left-[25px] w-full h-1.5 hidden"
         width={138}
         height={6}
-        alt=""
-        // src="Group 476.svg"
-      />
+      /> */}
     </div>
   );
 };

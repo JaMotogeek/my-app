@@ -11,6 +11,8 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.0.3",
     "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
     "mongoose": "^8.9.7",
     "next": "15.1.6",
     "openai": "^4.82.0",
