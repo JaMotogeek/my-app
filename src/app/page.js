@@ -2,6 +2,7 @@
 
 import Head from "next/head";
 import SignIn from "@/app/components/Login";
+import Message from "./components/Messaging";
 
 export default function login() {
   return (
@@ -11,6 +12,7 @@ export default function login() {
         <meta name="description" content="Log in to your DEAL account" />
       </Head>
       <SignIn />
+      <Message />
     </>
   );
 }
