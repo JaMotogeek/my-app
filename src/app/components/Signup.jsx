@@ -17,7 +17,7 @@ const SignUp = () => {
           					<div className={styles.div}>9:41</div>
         				</div>
       			</div>
-      			<Image className={styles.backIcon} width={24} height={24} alt="" src="Back.png" />
+      			<Image className={styles.backIcon} width={24} height={24} alt="" src="Back.svg" />
       			<div className={styles.signUpUihut}>
         				<Image className={styles.line42Stroke} width={50} height={8} alt="" src="Line 42 (Stroke).svg" />
         				<b className={styles.signUpWith}>Sign up with Email</b>

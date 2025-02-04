@@ -7,7 +7,7 @@ import styles from '../index.module.css';
 const SignIn = () => {
   	return (
     		<div className={styles.signIn1}>
-      			<Image className={styles.backIcon} width={24} height={24} alt="" src="Back.png" />
+      			<Image className={styles.backIcon} width={24} height={24} alt="" src="Back.svg" />
       			<div className={styles.loginUihut}>
         				<Image className={styles.loginUihutChild} width={327} height={48} alt="" src="Rectangle 1159.svg" />
         				<b className={styles.logIn}>Log in</b>
