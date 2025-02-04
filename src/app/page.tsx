@@ -6,6 +6,7 @@ export default function Home() {
   const [jobDescription, setJobDescription] = useState("");
   const [matchScore, setMatchScore] = useState<number | null>(null);
   const [list, setList] = useState<string[] | null>([]);
+  const [coverLetter, setCoverLetter] = useState<number | null>(null);
 
   const analyzeJobFit = async () => {
     const response = await fetch("http://localhost:5001/api/analyze", {
@@ -16,6 +17,16 @@ export default function Home() {
     const data = await response.json();
     setMatchScore(data.matchScore);
     setList(data.list);
+  };
+
+  const generateCoverLetter = async () => {
+    const response = await fetch("http://localhost:5001/api/cover-letter", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ resumeText, jobDescription }),
+    });
+    const data = await response.json();
+    setCoverLetter(data.coverLetter);
   };
 
   return (
@@ -36,6 +47,10 @@ export default function Home() {
       <button onClick={analyzeJobFit} className="mt-3 px-4 py-2 bg-blue-600 text-white rounded">
         Analyze Fit
       </button>
+      <button onClick={generateCoverLetter} className="mt-3 px-4 py-2 bg-green-600 text-white rounded">
+        Generate Cover Letter
+      </button>
+      {coverLetter !== null && <p className="mt-2">Cover Letter: {coverLetter}%</p>}
       {/* {matchScore !== null && <p className="mt-2">Match Score: {matchScore}%</p>} */}
       {list !== null && <ul>
         {list.map((listItem, index) => (

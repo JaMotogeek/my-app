@@ -31,5 +31,18 @@ app.post("/api/analyze", async (req, res) => {
   res.json({ matchScore: response.choices[0]?.message?.content || "0", list: list || [] });
 });
 
+app.post("/api/cover-letter", async (req, res) => {
+  const { resumeText, jobDescription } = req.body;
+
+  const prompt = `Write a professional cover letter based on this resume:\n${resumeText}\nFor this job:\n${jobDescription}\n`;
+
+  const response = await openai.chat.completions.create({
+    model: "gpt-4o-mini",
+    messages: [{ role: "system", content: prompt }],
+  });
+
+  res.json({ coverLetter: response.choices[0]?.message?.content });
+});
+
 const PORT = process.env.PORT || 5001;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
