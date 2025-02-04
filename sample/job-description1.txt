@@ -1,0 +1,65 @@
+Job Title: Full Stack Developer
+Location: Remote / New York, NY
+Employment Type: Full-Time
+Salary: 
+90
+,
+000
+−
+90,000−120,000 per year
+
+Job Description
+We are seeking a talented and experienced Full Stack Developer to join our dynamic team. The ideal candidate will have a strong background in both front-end and back-end development, with a passion for creating innovative and scalable web applications. You will work closely with cross-functional teams to design, develop, and deploy high-quality software solutions that meet our clients' needs.
+
+Responsibilities
+Design, develop, and maintain web applications using modern technologies.
+
+Collaborate with UX/UI designers to create responsive and user-friendly interfaces.
+
+Build and integrate RESTful APIs and microservices.
+
+Optimize applications for maximum speed and scalability.
+
+Troubleshoot and debug issues across the stack.
+
+Participate in code reviews and mentor junior developers.
+
+Stay up-to-date with emerging technologies and industry trends.
+
+Requirements
+Bachelor’s degree in Computer Science or a related field.
+
+3+ years of experience as a Full Stack Developer or similar role.
+
+Proficiency in front-end technologies (HTML, CSS, JavaScript, React, Angular, or Vue.js).
+
+Strong back-end development skills (Node.js, Python, Ruby on Rails, or similar).
+
+Experience with databases (MySQL, PostgreSQL, MongoDB).
+
+Familiarity with DevOps tools (Docker, Kubernetes, AWS).
+
+Knowledge of Agile/Scrum methodologies.
+
+Excellent problem-solving and communication skills.
+
+Preferred Qualifications
+Experience with GraphQL and serverless architectures.
+
+Familiarity with CI/CD pipelines and automated testing.
+
+AWS or Azure certification.
+
+Benefits
+Competitive salary and performance bonuses.
+
+Health, dental, and vision insurance.
+
+401(k) with company match.
+
+Flexible work hours and remote work options.
+
+Professional development opportunities.
+
+How to Apply
+Interested candidates should submit their resume, cover letter, and GitHub portfolio to careers@techcompany.com.
