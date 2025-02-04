@@ -1,7 +1,7 @@
 "use client";
 
 import Head from "next/head";
-import SignIn from "@/app/components/Login";
+import SignIn from "./components/Login";
 import Message from "./components/Messaging";
 
 export default function login() {

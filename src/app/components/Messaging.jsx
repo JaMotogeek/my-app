@@ -1,9 +1,6 @@
 "use client"
 
 
-import Image from "next/image";
-import styles from './index.module.css';
-
 
 
 const Message = () => {
